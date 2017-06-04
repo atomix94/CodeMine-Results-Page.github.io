@@ -70,6 +70,7 @@
 {
     display:flex;
  align-items: center;
+     position:relative;
 }
 .result-container_border
 {
@@ -95,6 +96,17 @@
     
 }
 
+
+.result-container_show_more_icon
+{
+    position:absolute;
+    right:10%;
+  
+}
+.icon
+{
+    width:50%;
+}
 .result-container_menu_element
 {
  

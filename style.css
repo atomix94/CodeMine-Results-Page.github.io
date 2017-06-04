@@ -117,7 +117,8 @@ table {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  position: relative; }
 
 .result-container_border {
   width: 5%;
@@ -146,6 +147,13 @@ table {
   position: absolute;
   bottom: 0;
   padding: 1.5% 0 1.5% 4.5%; }
+
+.result-container_show_more_icon {
+  position: absolute;
+  right: 10%; }
+
+.icon {
+  width: 50%; }
 
 .result-container_menu_element--active {
   border-bottom: 2px solid white; }
