@@ -1,0 +1,423 @@
+.main
+{
+    padding:0 10%;
+    background-color:#F8F9FA;
+    height:100%;
+     
+}
+
+.main_heading
+{
+    padding:4% 0;
+    color:lightgray;
+}
+
+.rating-box_wrapper
+{
+    display:flex;
+}
+.rating-box--big
+{
+    display:flex;
+    width:55vw;
+    height:30vh;
+    border:1px solid lightgray;
+}
+
+.rating-box_user
+{
+    width:30%;
+    border-right:1px solid lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.rating-box_user_quantity
+{
+    color:gray;
+}
+.rating-box_overall
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:gray;
+    
+    
+    
+}
+.rating-box--small
+{
+    width:20%;
+    border:1px solid lightgray;
+    margin-left:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.rating-box_overall_rate
+{
+    color:rgb(53,183,235);
+    font-size:4.5rem;
+    text-align:center;
+    
+    
+}
+.rating-box_overall_wrapper
+{
+  padding:10%;
+}
+.rating-box_overall_heading
+{
+    text-transform: uppercase;
+    
+}
+.rating-box_overall_score
+{
+ text-align:center;
+    font-size:3.5rem;
+}
+.rating-box__small_overall_score
+{
+    font-size:1rem;
+}
+
+.testing-box
+{
+    display:flex;
+    padding:2%;
+    border:1px solid lightgray;
+  margin-bottom:5%;
+    
+    
+}
+
+
+
+.testing-box_user
+{
+     padding:3%;
+    border-right:1px solid lightgray;
+    
+}
+
+.testing-box_user_name
+{
+   min-width:90px;
+    color:gray;
+}
+
+.testing-box_rating
+{
+    padding:2%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.testing-box_rating_text
+{
+    font-size:1.5rem;
+    width:70%;
+    color:gray;
+}
+
+.testing-box-rating_score
+{
+    
+    display:flex;
+    justify-content: flex-end;
+   flex-direction: column;
+}
+.testing-box_rating_score_text
+{
+    font-size:3.5rem;
+    display:flex;
+    justify-content: flex-end;
+   
+    color:rgb(53,183,235);
+}
+
+.testing-box_rating_score_link
+{
+    
+    color:rgb(53,183,235);
+    text-decoration: none;
+    
+}
+
+
+@media only screen and (max-width : 992px) {
+
+   .rating-box_overall_heading
+    {
+        font-size:12px;
+        
+        
+    }
+    
+    
+    .testing-box_rating_text
+    {
+        font-size:1rem;
+    }
+    
+    .top-container_menu
+    {
+        width:40%;
+    }
+    
+    }
+
+@media only screen and (max-width:846px)
+{ .rating-box_overall_heading
+    {
+        font-size:11px;
+    }
+    .result-container_menu
+    {
+        width:35%;
+    }
+    .rating-box_overall_wrapper
+    {
+        margin:5%;
+        padding:0;
+    }
+    .testing-box_rating_text {
+        font-size:1rem;
+    }
+}
+@media only screen and (max-width : 769px) {
+
+    .top-container_menu
+    {
+        width:45%;
+    }
+    .result-container_menu
+    {
+        width:45%;
+    }
+    
+    .rating-box_overall_heading
+    {
+        font-size:11px;
+        
+        
+    }
+    
+     .testing-box_rating_text
+    {
+        font-size:1rem !important;
+    }
+    
+    }
+
+
+@media only screen and (max-width:722px)
+
+{
+    .rating-box_overall_wrapper
+    {
+        margin:3%;
+    }
+    .rating-box_overall_score
+    {
+        font-size:3rem;
+    }
+    .rating-box_overall_rate
+    {
+        font-size:4rem;
+    }
+    
+     .rating-box_overall_heading
+    {
+        font-size:10px;
+        
+        
+    }
+}
+
+@media only screen and (max-width:667px)
+{
+    .rating-box_overall_wrapper
+    {
+        margin:2%;
+    }
+     .rating-box_overall_score
+    {
+        font-size:2.5rem;
+    }
+ .rating-box_small_overall_score
+    {
+        font-size:13px;
+    }
+    
+    .rating-box_overall_rate
+    {
+        font-size:3.5rem;
+    }
+    .top-container_menu
+    
+    {width:50%;
+    }
+}
+
+@media only screen and (max-width:595px)
+{
+    .rating-box_overall_heading
+    {
+        font-size:9px;
+    }
+    
+     .rating-box_overall_rate
+    {
+        font-size:3rem;
+    }
+    
+    .testing-box_rating_score_text
+    {
+        font-size:3rem;
+    }
+    .main
+    {
+        padding:0 5%;
+    }
+}
+
+@media only screen and (max-width:535px)
+{
+    .rating-box_overall_heading
+    {
+        font-size:8px;
+    }
+    
+     .rating-box_overall_rate
+    {
+        font-size:2.5rem;
+    }
+    
+      .testing-box_rating_score_text
+    {
+        font-size:2.5rem;
+    }
+    
+    .top-container_menu
+    {
+        width:60%;
+    }
+    .result-container_menu
+    {
+        width:55%;
+    }
+}
+@media only screen and (max-width : 502px) {
+
+    .rating-box_user_quantity
+    {
+        font-size:13px;
+    }
+    .rating-box--big
+    {
+        width:60vw;
+    }
+    
+    
+    
+    }
+
+@media only screen and (max-width:464px)
+{
+    .rating-box_small_overall_score
+    {
+        font-size:10px;
+    }
+    
+    .testing-box_rating_score_link
+    {
+        font-size:13px;
+    }
+}
+
+@media only screen and (max-width:445px)
+{
+    .testing-box_rating_text
+    {
+        font-size:0.8rem !important;
+    }
+    
+     .testing-box_rating_score_text
+    {
+        font-size:2rem;
+    }
+    .rating-box--small
+
+    {margin:0;
+    width:99%;
+        
+    
+    }
+    .rating-box--big
+    {
+        width:85vw;
+    }
+    .top-container_menu
+    {
+        width:65%;
+    }
+.rating-box_wrapper
+    {
+        flex-direction: column;
+    }
+    
+    .rating-box_overall_heading
+    {
+        font-size:11px;
+    }
+
+}
+
+@media only screen and (max-width:416px)
+{
+   .rating-box_overall_heading
+    {
+        font-size:10px;
+    } 
+}
+
+@media only screen and (max-width:415px)
+{
+    .top-container_menu
+    {
+        width:85%;
+    }
+    
+    .result-container_menu
+    {
+        width:75%;
+    }
+.rating-box_overall_heading
+    {
+        font-size:9px;
+    } 
+.testing-box_rating_text
+    {
+        font-size:0.65rem !important;
+    }
+}
+
+@media only screen and(max-width:344px)
+    
+{
+    .rating-box_overall_heading
+    {
+        font-size:8px;
+    } 
+    
+}
